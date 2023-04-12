@@ -1,0 +1,16 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\Practica 5>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o "D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\Practica 5\x64\Debug\kernel.cu.obj" "D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\Practica 5\kernel.cu" 
+D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\Practica 5\kernel.cu(81): warning #177-D: variable "index" was declared but never referenced
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\Practica 5\kernel.cu(135): warning #550-D: variable "h_ref" was set but never used
+  
+D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\Practica 5\kernel.cu(135): warning #550-D: variable "h_g_ref" was set but never used
+  
+  kernel.cu
+  tmpxft_000066c0_00000000-7_kernel.cudafe1.cpp
+     Creating library D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\x64\Debug\Practica 5.lib and object D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\x64\Debug\Practica 5.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Practica 5.vcxproj -> D:\Clases\Paralelo Avanzada\Parcial2\Practicas\Practica 5\x64\Debug\Practica 5.exe
